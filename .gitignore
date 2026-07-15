@@ -1,0 +1,24 @@
+# Maven
+target/
+*.jar
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Eclipse / STS
+.springBeans
+.sts4-cache
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
