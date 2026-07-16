@@ -24,7 +24,7 @@ public class ProductService {
 
     @CachePut(
         value="products",
-        key="#product.id"
+        key="#result.id"
     )
     public Product save(Product product){
 
